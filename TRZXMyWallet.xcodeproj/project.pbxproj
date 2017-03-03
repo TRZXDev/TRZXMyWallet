@@ -16,6 +16,84 @@
 		7662CE981E691AE30027F0D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7662CE961E691AE30027F0D5 /* LaunchScreen.storyboard */; };
 		7662CEA31E691AE30027F0D5 /* TRZXMyWalletTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7662CEA21E691AE30027F0D5 /* TRZXMyWalletTests.m */; };
 		7662CEAE1E691AE30027F0D5 /* TRZXMyWalletUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7662CEAD1E691AE30027F0D5 /* TRZXMyWalletUITests.m */; };
+		7662CF391E691C300027F0D5 /* agree.png in Resources */ = {isa = PBXBuildFile; fileRef = 7662CEBC1E691C300027F0D5 /* agree.png */; };
+		7662CF3A1E691C300027F0D5 /* ChongzhiVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7662CEBE1E691C300027F0D5 /* ChongzhiVC.m */; };
+		7662CF3B1E691C300027F0D5 /* ChongzhiVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7662CEBF1E691C300027F0D5 /* ChongzhiVC.xib */; };
+		7662CF3C1E691C300027F0D5 /* CTMediator+Wallet.m in Sources */ = {isa = PBXBuildFile; fileRef = 7662CEC11E691C300027F0D5 /* CTMediator+Wallet.m */; };
+		7662CF3D1E691C300027F0D5 /* DCPaymentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7662CEC31E691C300027F0D5 /* DCPaymentView.m */; };
+		7662CF3E1E691C300027F0D5 /* EOAddBankMsgViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7662CEC51E691C300027F0D5 /* EOAddBankMsgViewController.m */; };
+		7662CF3F1E691C300027F0D5 /* EOAddBankTypeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7662CEC71E691C300027F0D5 /* EOAddBankTypeCell.m */; };
+		7662CF401E691C300027F0D5 /* EOAddBankTypeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7662CEC81E691C300027F0D5 /* EOAddBankTypeCell.xib */; };
+		7662CF411E691C300027F0D5 /* EOAgreeProTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7662CECA1E691C300027F0D5 /* EOAgreeProTableViewCell.m */; };
+		7662CF421E691C300027F0D5 /* EOAgreeProTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7662CECB1E691C300027F0D5 /* EOAgreeProTableViewCell.xib */; };
+		7662CF431E691C300027F0D5 /* EOAouthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7662CECD1E691C300027F0D5 /* EOAouthViewController.m */; };
+		7662CF441E691C300027F0D5 /* EOAuothPhoneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7662CECF1E691C300027F0D5 /* EOAuothPhoneViewController.m */; };
+		7662CF451E691C300027F0D5 /* EOBankAouthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7662CED11E691C300027F0D5 /* EOBankAouthViewController.m */; };
+		7662CF461E691C300027F0D5 /* EOChooseBankTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7662CED31E691C300027F0D5 /* EOChooseBankTableViewCell.m */; };
+		7662CF471E691C300027F0D5 /* EOChooseBankTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7662CED41E691C300027F0D5 /* EOChooseBankTableViewCell.xib */; };
+		7662CF481E691C300027F0D5 /* EODeleteCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7662CED61E691C300027F0D5 /* EODeleteCardViewController.m */; };
+		7662CF491E691C300027F0D5 /* EOEditMailTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7662CED81E691C300027F0D5 /* EOEditMailTableViewCell.m */; };
+		7662CF4A1E691C300027F0D5 /* EOEditMailTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7662CED91E691C300027F0D5 /* EOEditMailTableViewCell.xib */; };
+		7662CF4B1E691C300027F0D5 /* EOEditMyInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7662CEDB1E691C300027F0D5 /* EOEditMyInfoViewController.m */; };
+		7662CF4C1E691C300027F0D5 /* EOEditMyMsgTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7662CEDD1E691C300027F0D5 /* EOEditMyMsgTableViewCell.m */; };
+		7662CF4D1E691C300027F0D5 /* EOEditMyMsgTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7662CEDE1E691C300027F0D5 /* EOEditMyMsgTableViewCell.xib */; };
+		7662CF4E1E691C300027F0D5 /* EOForgetPayPasswordController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7662CEE01E691C300027F0D5 /* EOForgetPayPasswordController.m */; };
+		7662CF4F1E691C300027F0D5 /* EOMeHomeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7662CEE21E691C300027F0D5 /* EOMeHomeModel.m */; };
+		7662CF501E691C300027F0D5 /* EOMyWalletViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7662CEE41E691C300027F0D5 /* EOMyWalletViewModel.m */; };
+		7662CF511E691C300027F0D5 /* EOPasswordView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7662CEE61E691C300027F0D5 /* EOPasswordView.m */; };
+		7662CF521E691C300027F0D5 /* EOSetTradeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7662CEE81E691C300027F0D5 /* EOSetTradeView.m */; };
+		7662CF531E691C300027F0D5 /* EOUpdatePasswordTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7662CEEA1E691C300027F0D5 /* EOUpdatePasswordTableViewCell.m */; };
+		7662CF541E691C300027F0D5 /* EOUpdatePasswordTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7662CEEB1E691C300027F0D5 /* EOUpdatePasswordTableViewCell.xib */; };
+		7662CF551E691C300027F0D5 /* EOWalletAddCardTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7662CEED1E691C300027F0D5 /* EOWalletAddCardTableViewCell.m */; };
+		7662CF561E691C300027F0D5 /* EOWalletAddCardTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7662CEEE1E691C300027F0D5 /* EOWalletAddCardTableViewCell.xib */; };
+		7662CF571E691C300027F0D5 /* EOWalletBankCardTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7662CEF01E691C300027F0D5 /* EOWalletBankCardTableViewCell.m */; };
+		7662CF581E691C300027F0D5 /* EOWalletBankCardTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7662CEF11E691C300027F0D5 /* EOWalletBankCardTableViewCell.xib */; };
+		7662CF591E691C300027F0D5 /* EOWalletBankCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7662CEF31E691C300027F0D5 /* EOWalletBankCardViewController.m */; };
+		7662CF5A1E691C300027F0D5 /* EOWalletHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7662CEF51E691C300027F0D5 /* EOWalletHeaderView.m */; };
+		7662CF5B1E691C300027F0D5 /* EOWalletHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7662CEF61E691C300027F0D5 /* EOWalletHeaderView.xib */; };
+		7662CF5C1E691C300027F0D5 /* EOWalletModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7662CEF81E691C300027F0D5 /* EOWalletModel.m */; };
+		7662CF5D1E691C300027F0D5 /* EOWalletNoteDetailHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7662CEFA1E691C300027F0D5 /* EOWalletNoteDetailHeaderView.m */; };
+		7662CF5E1E691C300027F0D5 /* EOWalletNoteDetailHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7662CEFB1E691C300027F0D5 /* EOWalletNoteDetailHeaderView.xib */; };
+		7662CF5F1E691C300027F0D5 /* EOWalletNoteTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7662CEFD1E691C300027F0D5 /* EOWalletNoteTableViewCell.m */; };
+		7662CF601E691C300027F0D5 /* EOWalletNoteTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7662CEFE1E691C300027F0D5 /* EOWalletNoteTableViewCell.xib */; };
+		7662CF611E691C300027F0D5 /* EOWalletRecentlyCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7662CF001E691C300027F0D5 /* EOWalletRecentlyCell.m */; };
+		7662CF621E691C300027F0D5 /* EOWalletRecentlyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7662CF011E691C300027F0D5 /* EOWalletRecentlyCell.xib */; };
+		7662CF631E691C300027F0D5 /* EOWalletViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7662CF031E691C300027F0D5 /* EOWalletViewController.m */; };
+		7662CF641E691C300027F0D5 /* EOWalletWithDrawTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7662CF051E691C300027F0D5 /* EOWalletWithDrawTableViewCell.m */; };
+		7662CF651E691C300027F0D5 /* EOWalletWithDrawTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7662CF061E691C300027F0D5 /* EOWalletWithDrawTableViewCell.xib */; };
+		7662CF661E691C300027F0D5 /* EOWalletWithDrawViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7662CF081E691C300027F0D5 /* EOWalletWithDrawViewController.m */; };
+		7662CF671E691C300027F0D5 /* EOWithDrawDetailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7662CF0A1E691C300027F0D5 /* EOWithDrawDetailCell.m */; };
+		7662CF681E691C300027F0D5 /* EOWithDrawDetailCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7662CF0B1E691C300027F0D5 /* EOWithDrawDetailCell.xib */; };
+		7662CF691E691C300027F0D5 /* EOWithDrawDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7662CF0D1E691C300027F0D5 /* EOWithDrawDetailViewController.m */; };
+		7662CF6A1E691C300027F0D5 /* JiaoYiJiLuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7662CF0F1E691C300027F0D5 /* JiaoYiJiLuViewController.m */; };
+		7662CF6B1E691C300027F0D5 /* NewWalletLookDetailTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7662CF111E691C300027F0D5 /* NewWalletLookDetailTableViewCell.m */; };
+		7662CF6C1E691C300027F0D5 /* NewWalletLookDetailTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7662CF121E691C300027F0D5 /* NewWalletLookDetailTableViewCell.xib */; };
+		7662CF6D1E691C300027F0D5 /* NSString+WalletMD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 7662CF141E691C300027F0D5 /* NSString+WalletMD5.m */; };
+		7662CF6E1E691C300027F0D5 /* PasswordEnterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7662CF161E691C300027F0D5 /* PasswordEnterView.m */; };
+		7662CF6F1E691C300027F0D5 /* PasswordTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 7662CF181E691C300027F0D5 /* PasswordTextField.m */; };
+		7662CF701E691C300027F0D5 /* PickerChoiceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7662CF1A1E691C300027F0D5 /* PickerChoiceView.m */; };
+		7662CF711E691C300027F0D5 /* Target_Wallet.m in Sources */ = {isa = PBXBuildFile; fileRef = 7662CF1C1E691C300027F0D5 /* Target_Wallet.m */; };
+		7662CF721E691C300027F0D5 /* UIView+Wallet_Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 7662CF201E691C300027F0D5 /* UIView+Wallet_Frame.m */; };
+		7662CF731E691C300027F0D5 /* VerifyPasswordPopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7662CF221E691C300027F0D5 /* VerifyPasswordPopView.m */; };
+		7662CF741E691C300027F0D5 /* wallet_accounDetail.png in Resources */ = {isa = PBXBuildFile; fileRef = 7662CF231E691C300027F0D5 /* wallet_accounDetail.png */; };
+		7662CF751E691C300027F0D5 /* wallet_agree.png in Resources */ = {isa = PBXBuildFile; fileRef = 7662CF241E691C300027F0D5 /* wallet_agree.png */; };
+		7662CF761E691C300027F0D5 /* wallet_bank.png in Resources */ = {isa = PBXBuildFile; fileRef = 7662CF251E691C300027F0D5 /* wallet_bank.png */; };
+		7662CF771E691C300027F0D5 /* wallet_bank2.png in Resources */ = {isa = PBXBuildFile; fileRef = 7662CF261E691C300027F0D5 /* wallet_bank2.png */; };
+		7662CF781E691C300027F0D5 /* wallet_bankCard.png in Resources */ = {isa = PBXBuildFile; fileRef = 7662CF271E691C300027F0D5 /* wallet_bankCard.png */; };
+		7662CF791E691C300027F0D5 /* wallet_charge.png in Resources */ = {isa = PBXBuildFile; fileRef = 7662CF281E691C300027F0D5 /* wallet_charge.png */; };
+		7662CF7A1E691C300027F0D5 /* wallet_choose.png in Resources */ = {isa = PBXBuildFile; fileRef = 7662CF291E691C300027F0D5 /* wallet_choose.png */; };
+		7662CF7B1E691C300027F0D5 /* wallet_close.png in Resources */ = {isa = PBXBuildFile; fileRef = 7662CF2A1E691C300027F0D5 /* wallet_close.png */; };
+		7662CF7C1E691C300027F0D5 /* wallet_crad.png in Resources */ = {isa = PBXBuildFile; fileRef = 7662CF2B1E691C300027F0D5 /* wallet_crad.png */; };
+		7662CF7D1E691C300027F0D5 /* wallet_detail.png in Resources */ = {isa = PBXBuildFile; fileRef = 7662CF2C1E691C300027F0D5 /* wallet_detail.png */; };
+		7662CF7E1E691C300027F0D5 /* wallet_extesion.png in Resources */ = {isa = PBXBuildFile; fileRef = 7662CF2D1E691C300027F0D5 /* wallet_extesion.png */; };
+		7662CF7F1E691C300027F0D5 /* wallet_rightbar.png in Resources */ = {isa = PBXBuildFile; fileRef = 7662CF2E1E691C300027F0D5 /* wallet_rightbar.png */; };
+		7662CF801E691C300027F0D5 /* wallet_time.png in Resources */ = {isa = PBXBuildFile; fileRef = 7662CF2F1E691C300027F0D5 /* wallet_time.png */; };
+		7662CF811E691C300027F0D5 /* wallet_wallet.png in Resources */ = {isa = PBXBuildFile; fileRef = 7662CF301E691C300027F0D5 /* wallet_wallet.png */; };
+		7662CF821E691C300027F0D5 /* wallet_withDraw.png in Resources */ = {isa = PBXBuildFile; fileRef = 7662CF311E691C300027F0D5 /* wallet_withDraw.png */; };
+		7662CF831E691C300027F0D5 /* WalletBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7662CF331E691C300027F0D5 /* WalletBaseViewController.m */; };
+		7662CF841E691C300027F0D5 /* WalletPayProtocolViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7662CF351E691C300027F0D5 /* WalletPayProtocolViewController.m */; };
+		7662CF851E691C300027F0D5 /* white_Back.png in Resources */ = {isa = PBXBuildFile; fileRef = 7662CF361E691C300027F0D5 /* white_Back.png */; };
+		7662CF861E691C300027F0D5 /* ZhiFuMiMaController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7662CF381E691C300027F0D5 /* ZhiFuMiMaController.m */; };
 		7C5883152B5A8C6C423920D8 /* libPods-TRZXMyWallet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F877130C8E1976AE7DA6D30 /* libPods-TRZXMyWallet.a */; };
 		CD2CC4EA8CCDE63FC82B992E /* libPods-TRZXMyWalletTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A41B6315F5F5B2275CFBED82 /* libPods-TRZXMyWalletTests.a */; };
 /* End PBXBuildFile section */
@@ -57,6 +135,131 @@
 		7662CEA91E691AE30027F0D5 /* TRZXMyWalletUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TRZXMyWalletUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7662CEAD1E691AE30027F0D5 /* TRZXMyWalletUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TRZXMyWalletUITests.m; sourceTree = "<group>"; };
 		7662CEAF1E691AE30027F0D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7662CEBC1E691C300027F0D5 /* agree.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = agree.png; sourceTree = "<group>"; };
+		7662CEBD1E691C300027F0D5 /* ChongzhiVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChongzhiVC.h; sourceTree = "<group>"; };
+		7662CEBE1E691C300027F0D5 /* ChongzhiVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChongzhiVC.m; sourceTree = "<group>"; };
+		7662CEBF1E691C300027F0D5 /* ChongzhiVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChongzhiVC.xib; sourceTree = "<group>"; };
+		7662CEC01E691C300027F0D5 /* CTMediator+Wallet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CTMediator+Wallet.h"; sourceTree = "<group>"; };
+		7662CEC11E691C300027F0D5 /* CTMediator+Wallet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CTMediator+Wallet.m"; sourceTree = "<group>"; };
+		7662CEC21E691C300027F0D5 /* DCPaymentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCPaymentView.h; sourceTree = "<group>"; };
+		7662CEC31E691C300027F0D5 /* DCPaymentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCPaymentView.m; sourceTree = "<group>"; };
+		7662CEC41E691C300027F0D5 /* EOAddBankMsgViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EOAddBankMsgViewController.h; sourceTree = "<group>"; };
+		7662CEC51E691C300027F0D5 /* EOAddBankMsgViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EOAddBankMsgViewController.m; sourceTree = "<group>"; };
+		7662CEC61E691C300027F0D5 /* EOAddBankTypeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EOAddBankTypeCell.h; sourceTree = "<group>"; };
+		7662CEC71E691C300027F0D5 /* EOAddBankTypeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EOAddBankTypeCell.m; sourceTree = "<group>"; };
+		7662CEC81E691C300027F0D5 /* EOAddBankTypeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EOAddBankTypeCell.xib; sourceTree = "<group>"; };
+		7662CEC91E691C300027F0D5 /* EOAgreeProTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EOAgreeProTableViewCell.h; sourceTree = "<group>"; };
+		7662CECA1E691C300027F0D5 /* EOAgreeProTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EOAgreeProTableViewCell.m; sourceTree = "<group>"; };
+		7662CECB1E691C300027F0D5 /* EOAgreeProTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EOAgreeProTableViewCell.xib; sourceTree = "<group>"; };
+		7662CECC1E691C300027F0D5 /* EOAouthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EOAouthViewController.h; sourceTree = "<group>"; };
+		7662CECD1E691C300027F0D5 /* EOAouthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EOAouthViewController.m; sourceTree = "<group>"; };
+		7662CECE1E691C300027F0D5 /* EOAuothPhoneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EOAuothPhoneViewController.h; sourceTree = "<group>"; };
+		7662CECF1E691C300027F0D5 /* EOAuothPhoneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EOAuothPhoneViewController.m; sourceTree = "<group>"; };
+		7662CED01E691C300027F0D5 /* EOBankAouthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EOBankAouthViewController.h; sourceTree = "<group>"; };
+		7662CED11E691C300027F0D5 /* EOBankAouthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EOBankAouthViewController.m; sourceTree = "<group>"; };
+		7662CED21E691C300027F0D5 /* EOChooseBankTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EOChooseBankTableViewCell.h; sourceTree = "<group>"; };
+		7662CED31E691C300027F0D5 /* EOChooseBankTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EOChooseBankTableViewCell.m; sourceTree = "<group>"; };
+		7662CED41E691C300027F0D5 /* EOChooseBankTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EOChooseBankTableViewCell.xib; sourceTree = "<group>"; };
+		7662CED51E691C300027F0D5 /* EODeleteCardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EODeleteCardViewController.h; sourceTree = "<group>"; };
+		7662CED61E691C300027F0D5 /* EODeleteCardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EODeleteCardViewController.m; sourceTree = "<group>"; };
+		7662CED71E691C300027F0D5 /* EOEditMailTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EOEditMailTableViewCell.h; sourceTree = "<group>"; };
+		7662CED81E691C300027F0D5 /* EOEditMailTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EOEditMailTableViewCell.m; sourceTree = "<group>"; };
+		7662CED91E691C300027F0D5 /* EOEditMailTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EOEditMailTableViewCell.xib; sourceTree = "<group>"; };
+		7662CEDA1E691C300027F0D5 /* EOEditMyInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EOEditMyInfoViewController.h; sourceTree = "<group>"; };
+		7662CEDB1E691C300027F0D5 /* EOEditMyInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EOEditMyInfoViewController.m; sourceTree = "<group>"; };
+		7662CEDC1E691C300027F0D5 /* EOEditMyMsgTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EOEditMyMsgTableViewCell.h; sourceTree = "<group>"; };
+		7662CEDD1E691C300027F0D5 /* EOEditMyMsgTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EOEditMyMsgTableViewCell.m; sourceTree = "<group>"; };
+		7662CEDE1E691C300027F0D5 /* EOEditMyMsgTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EOEditMyMsgTableViewCell.xib; sourceTree = "<group>"; };
+		7662CEDF1E691C300027F0D5 /* EOForgetPayPasswordController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EOForgetPayPasswordController.h; sourceTree = "<group>"; };
+		7662CEE01E691C300027F0D5 /* EOForgetPayPasswordController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EOForgetPayPasswordController.m; sourceTree = "<group>"; };
+		7662CEE11E691C300027F0D5 /* EOMeHomeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EOMeHomeModel.h; sourceTree = "<group>"; };
+		7662CEE21E691C300027F0D5 /* EOMeHomeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EOMeHomeModel.m; sourceTree = "<group>"; };
+		7662CEE31E691C300027F0D5 /* EOMyWalletViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EOMyWalletViewModel.h; sourceTree = "<group>"; };
+		7662CEE41E691C300027F0D5 /* EOMyWalletViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EOMyWalletViewModel.m; sourceTree = "<group>"; };
+		7662CEE51E691C300027F0D5 /* EOPasswordView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EOPasswordView.h; sourceTree = "<group>"; };
+		7662CEE61E691C300027F0D5 /* EOPasswordView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EOPasswordView.m; sourceTree = "<group>"; };
+		7662CEE71E691C300027F0D5 /* EOSetTradeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EOSetTradeView.h; sourceTree = "<group>"; };
+		7662CEE81E691C300027F0D5 /* EOSetTradeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EOSetTradeView.m; sourceTree = "<group>"; };
+		7662CEE91E691C300027F0D5 /* EOUpdatePasswordTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EOUpdatePasswordTableViewCell.h; sourceTree = "<group>"; };
+		7662CEEA1E691C300027F0D5 /* EOUpdatePasswordTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EOUpdatePasswordTableViewCell.m; sourceTree = "<group>"; };
+		7662CEEB1E691C300027F0D5 /* EOUpdatePasswordTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EOUpdatePasswordTableViewCell.xib; sourceTree = "<group>"; };
+		7662CEEC1E691C300027F0D5 /* EOWalletAddCardTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EOWalletAddCardTableViewCell.h; sourceTree = "<group>"; };
+		7662CEED1E691C300027F0D5 /* EOWalletAddCardTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EOWalletAddCardTableViewCell.m; sourceTree = "<group>"; };
+		7662CEEE1E691C300027F0D5 /* EOWalletAddCardTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EOWalletAddCardTableViewCell.xib; sourceTree = "<group>"; };
+		7662CEEF1E691C300027F0D5 /* EOWalletBankCardTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EOWalletBankCardTableViewCell.h; sourceTree = "<group>"; };
+		7662CEF01E691C300027F0D5 /* EOWalletBankCardTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EOWalletBankCardTableViewCell.m; sourceTree = "<group>"; };
+		7662CEF11E691C300027F0D5 /* EOWalletBankCardTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EOWalletBankCardTableViewCell.xib; sourceTree = "<group>"; };
+		7662CEF21E691C300027F0D5 /* EOWalletBankCardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EOWalletBankCardViewController.h; sourceTree = "<group>"; };
+		7662CEF31E691C300027F0D5 /* EOWalletBankCardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EOWalletBankCardViewController.m; sourceTree = "<group>"; };
+		7662CEF41E691C300027F0D5 /* EOWalletHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EOWalletHeaderView.h; sourceTree = "<group>"; };
+		7662CEF51E691C300027F0D5 /* EOWalletHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EOWalletHeaderView.m; sourceTree = "<group>"; };
+		7662CEF61E691C300027F0D5 /* EOWalletHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EOWalletHeaderView.xib; sourceTree = "<group>"; };
+		7662CEF71E691C300027F0D5 /* EOWalletModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EOWalletModel.h; sourceTree = "<group>"; };
+		7662CEF81E691C300027F0D5 /* EOWalletModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EOWalletModel.m; sourceTree = "<group>"; };
+		7662CEF91E691C300027F0D5 /* EOWalletNoteDetailHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EOWalletNoteDetailHeaderView.h; sourceTree = "<group>"; };
+		7662CEFA1E691C300027F0D5 /* EOWalletNoteDetailHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EOWalletNoteDetailHeaderView.m; sourceTree = "<group>"; };
+		7662CEFB1E691C300027F0D5 /* EOWalletNoteDetailHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EOWalletNoteDetailHeaderView.xib; sourceTree = "<group>"; };
+		7662CEFC1E691C300027F0D5 /* EOWalletNoteTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EOWalletNoteTableViewCell.h; sourceTree = "<group>"; };
+		7662CEFD1E691C300027F0D5 /* EOWalletNoteTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EOWalletNoteTableViewCell.m; sourceTree = "<group>"; };
+		7662CEFE1E691C300027F0D5 /* EOWalletNoteTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EOWalletNoteTableViewCell.xib; sourceTree = "<group>"; };
+		7662CEFF1E691C300027F0D5 /* EOWalletRecentlyCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EOWalletRecentlyCell.h; sourceTree = "<group>"; };
+		7662CF001E691C300027F0D5 /* EOWalletRecentlyCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EOWalletRecentlyCell.m; sourceTree = "<group>"; };
+		7662CF011E691C300027F0D5 /* EOWalletRecentlyCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EOWalletRecentlyCell.xib; sourceTree = "<group>"; };
+		7662CF021E691C300027F0D5 /* EOWalletViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EOWalletViewController.h; sourceTree = "<group>"; };
+		7662CF031E691C300027F0D5 /* EOWalletViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EOWalletViewController.m; sourceTree = "<group>"; };
+		7662CF041E691C300027F0D5 /* EOWalletWithDrawTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EOWalletWithDrawTableViewCell.h; sourceTree = "<group>"; };
+		7662CF051E691C300027F0D5 /* EOWalletWithDrawTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EOWalletWithDrawTableViewCell.m; sourceTree = "<group>"; };
+		7662CF061E691C300027F0D5 /* EOWalletWithDrawTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EOWalletWithDrawTableViewCell.xib; sourceTree = "<group>"; };
+		7662CF071E691C300027F0D5 /* EOWalletWithDrawViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EOWalletWithDrawViewController.h; sourceTree = "<group>"; };
+		7662CF081E691C300027F0D5 /* EOWalletWithDrawViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EOWalletWithDrawViewController.m; sourceTree = "<group>"; };
+		7662CF091E691C300027F0D5 /* EOWithDrawDetailCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EOWithDrawDetailCell.h; sourceTree = "<group>"; };
+		7662CF0A1E691C300027F0D5 /* EOWithDrawDetailCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EOWithDrawDetailCell.m; sourceTree = "<group>"; };
+		7662CF0B1E691C300027F0D5 /* EOWithDrawDetailCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EOWithDrawDetailCell.xib; sourceTree = "<group>"; };
+		7662CF0C1E691C300027F0D5 /* EOWithDrawDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EOWithDrawDetailViewController.h; sourceTree = "<group>"; };
+		7662CF0D1E691C300027F0D5 /* EOWithDrawDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EOWithDrawDetailViewController.m; sourceTree = "<group>"; };
+		7662CF0E1E691C300027F0D5 /* JiaoYiJiLuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JiaoYiJiLuViewController.h; sourceTree = "<group>"; };
+		7662CF0F1E691C300027F0D5 /* JiaoYiJiLuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JiaoYiJiLuViewController.m; sourceTree = "<group>"; };
+		7662CF101E691C300027F0D5 /* NewWalletLookDetailTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewWalletLookDetailTableViewCell.h; sourceTree = "<group>"; };
+		7662CF111E691C300027F0D5 /* NewWalletLookDetailTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewWalletLookDetailTableViewCell.m; sourceTree = "<group>"; };
+		7662CF121E691C300027F0D5 /* NewWalletLookDetailTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewWalletLookDetailTableViewCell.xib; sourceTree = "<group>"; };
+		7662CF131E691C300027F0D5 /* NSString+WalletMD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+WalletMD5.h"; sourceTree = "<group>"; };
+		7662CF141E691C300027F0D5 /* NSString+WalletMD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+WalletMD5.m"; sourceTree = "<group>"; };
+		7662CF151E691C300027F0D5 /* PasswordEnterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PasswordEnterView.h; sourceTree = "<group>"; };
+		7662CF161E691C300027F0D5 /* PasswordEnterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PasswordEnterView.m; sourceTree = "<group>"; };
+		7662CF171E691C300027F0D5 /* PasswordTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PasswordTextField.h; sourceTree = "<group>"; };
+		7662CF181E691C300027F0D5 /* PasswordTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PasswordTextField.m; sourceTree = "<group>"; };
+		7662CF191E691C300027F0D5 /* PickerChoiceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PickerChoiceView.h; sourceTree = "<group>"; };
+		7662CF1A1E691C300027F0D5 /* PickerChoiceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PickerChoiceView.m; sourceTree = "<group>"; };
+		7662CF1B1E691C300027F0D5 /* Target_Wallet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Target_Wallet.h; sourceTree = "<group>"; };
+		7662CF1C1E691C300027F0D5 /* Target_Wallet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Target_Wallet.m; sourceTree = "<group>"; };
+		7662CF1D1E691C300027F0D5 /* TRWalletHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRWalletHeader.h; sourceTree = "<group>"; };
+		7662CF1E1E691C300027F0D5 /* TRZXWalletMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRZXWalletMacro.h; sourceTree = "<group>"; };
+		7662CF1F1E691C300027F0D5 /* UIView+Wallet_Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Wallet_Frame.h"; sourceTree = "<group>"; };
+		7662CF201E691C300027F0D5 /* UIView+Wallet_Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Wallet_Frame.m"; sourceTree = "<group>"; };
+		7662CF211E691C300027F0D5 /* VerifyPasswordPopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VerifyPasswordPopView.h; sourceTree = "<group>"; };
+		7662CF221E691C300027F0D5 /* VerifyPasswordPopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VerifyPasswordPopView.m; sourceTree = "<group>"; };
+		7662CF231E691C300027F0D5 /* wallet_accounDetail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wallet_accounDetail.png; sourceTree = "<group>"; };
+		7662CF241E691C300027F0D5 /* wallet_agree.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wallet_agree.png; sourceTree = "<group>"; };
+		7662CF251E691C300027F0D5 /* wallet_bank.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wallet_bank.png; sourceTree = "<group>"; };
+		7662CF261E691C300027F0D5 /* wallet_bank2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wallet_bank2.png; sourceTree = "<group>"; };
+		7662CF271E691C300027F0D5 /* wallet_bankCard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wallet_bankCard.png; sourceTree = "<group>"; };
+		7662CF281E691C300027F0D5 /* wallet_charge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wallet_charge.png; sourceTree = "<group>"; };
+		7662CF291E691C300027F0D5 /* wallet_choose.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wallet_choose.png; sourceTree = "<group>"; };
+		7662CF2A1E691C300027F0D5 /* wallet_close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wallet_close.png; sourceTree = "<group>"; };
+		7662CF2B1E691C300027F0D5 /* wallet_crad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wallet_crad.png; sourceTree = "<group>"; };
+		7662CF2C1E691C300027F0D5 /* wallet_detail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wallet_detail.png; sourceTree = "<group>"; };
+		7662CF2D1E691C300027F0D5 /* wallet_extesion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wallet_extesion.png; sourceTree = "<group>"; };
+		7662CF2E1E691C300027F0D5 /* wallet_rightbar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wallet_rightbar.png; sourceTree = "<group>"; };
+		7662CF2F1E691C300027F0D5 /* wallet_time.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wallet_time.png; sourceTree = "<group>"; };
+		7662CF301E691C300027F0D5 /* wallet_wallet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wallet_wallet.png; sourceTree = "<group>"; };
+		7662CF311E691C300027F0D5 /* wallet_withDraw.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wallet_withDraw.png; sourceTree = "<group>"; };
+		7662CF321E691C300027F0D5 /* WalletBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WalletBaseViewController.h; sourceTree = "<group>"; };
+		7662CF331E691C300027F0D5 /* WalletBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WalletBaseViewController.m; sourceTree = "<group>"; };
+		7662CF341E691C300027F0D5 /* WalletPayProtocolViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WalletPayProtocolViewController.h; sourceTree = "<group>"; };
+		7662CF351E691C300027F0D5 /* WalletPayProtocolViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WalletPayProtocolViewController.m; sourceTree = "<group>"; };
+		7662CF361E691C300027F0D5 /* white_Back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = white_Back.png; sourceTree = "<group>"; };
+		7662CF371E691C300027F0D5 /* ZhiFuMiMaController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZhiFuMiMaController.h; sourceTree = "<group>"; };
+		7662CF381E691C300027F0D5 /* ZhiFuMiMaController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZhiFuMiMaController.m; sourceTree = "<group>"; };
 		82651BDF94C9A1219162648B /* libPods-TRZXMyWalletUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TRZXMyWalletUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A41B6315F5F5B2275CFBED82 /* libPods-TRZXMyWalletTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TRZXMyWalletTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD9FC0EF44C33DE4099C93B6 /* Pods-TRZXMyWalletUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TRZXMyWalletUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TRZXMyWalletUITests/Pods-TRZXMyWalletUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -174,6 +377,131 @@
 		7662CEBB1E691B070027F0D5 /* TRZXMyWallet */ = {
 			isa = PBXGroup;
 			children = (
+				7662CEBC1E691C300027F0D5 /* agree.png */,
+				7662CEBD1E691C300027F0D5 /* ChongzhiVC.h */,
+				7662CEBE1E691C300027F0D5 /* ChongzhiVC.m */,
+				7662CEBF1E691C300027F0D5 /* ChongzhiVC.xib */,
+				7662CEC01E691C300027F0D5 /* CTMediator+Wallet.h */,
+				7662CEC11E691C300027F0D5 /* CTMediator+Wallet.m */,
+				7662CEC21E691C300027F0D5 /* DCPaymentView.h */,
+				7662CEC31E691C300027F0D5 /* DCPaymentView.m */,
+				7662CEC41E691C300027F0D5 /* EOAddBankMsgViewController.h */,
+				7662CEC51E691C300027F0D5 /* EOAddBankMsgViewController.m */,
+				7662CEC61E691C300027F0D5 /* EOAddBankTypeCell.h */,
+				7662CEC71E691C300027F0D5 /* EOAddBankTypeCell.m */,
+				7662CEC81E691C300027F0D5 /* EOAddBankTypeCell.xib */,
+				7662CEC91E691C300027F0D5 /* EOAgreeProTableViewCell.h */,
+				7662CECA1E691C300027F0D5 /* EOAgreeProTableViewCell.m */,
+				7662CECB1E691C300027F0D5 /* EOAgreeProTableViewCell.xib */,
+				7662CECC1E691C300027F0D5 /* EOAouthViewController.h */,
+				7662CECD1E691C300027F0D5 /* EOAouthViewController.m */,
+				7662CECE1E691C300027F0D5 /* EOAuothPhoneViewController.h */,
+				7662CECF1E691C300027F0D5 /* EOAuothPhoneViewController.m */,
+				7662CED01E691C300027F0D5 /* EOBankAouthViewController.h */,
+				7662CED11E691C300027F0D5 /* EOBankAouthViewController.m */,
+				7662CED21E691C300027F0D5 /* EOChooseBankTableViewCell.h */,
+				7662CED31E691C300027F0D5 /* EOChooseBankTableViewCell.m */,
+				7662CED41E691C300027F0D5 /* EOChooseBankTableViewCell.xib */,
+				7662CED51E691C300027F0D5 /* EODeleteCardViewController.h */,
+				7662CED61E691C300027F0D5 /* EODeleteCardViewController.m */,
+				7662CED71E691C300027F0D5 /* EOEditMailTableViewCell.h */,
+				7662CED81E691C300027F0D5 /* EOEditMailTableViewCell.m */,
+				7662CED91E691C300027F0D5 /* EOEditMailTableViewCell.xib */,
+				7662CEDA1E691C300027F0D5 /* EOEditMyInfoViewController.h */,
+				7662CEDB1E691C300027F0D5 /* EOEditMyInfoViewController.m */,
+				7662CEDC1E691C300027F0D5 /* EOEditMyMsgTableViewCell.h */,
+				7662CEDD1E691C300027F0D5 /* EOEditMyMsgTableViewCell.m */,
+				7662CEDE1E691C300027F0D5 /* EOEditMyMsgTableViewCell.xib */,
+				7662CEDF1E691C300027F0D5 /* EOForgetPayPasswordController.h */,
+				7662CEE01E691C300027F0D5 /* EOForgetPayPasswordController.m */,
+				7662CEE11E691C300027F0D5 /* EOMeHomeModel.h */,
+				7662CEE21E691C300027F0D5 /* EOMeHomeModel.m */,
+				7662CEE31E691C300027F0D5 /* EOMyWalletViewModel.h */,
+				7662CEE41E691C300027F0D5 /* EOMyWalletViewModel.m */,
+				7662CEE51E691C300027F0D5 /* EOPasswordView.h */,
+				7662CEE61E691C300027F0D5 /* EOPasswordView.m */,
+				7662CEE71E691C300027F0D5 /* EOSetTradeView.h */,
+				7662CEE81E691C300027F0D5 /* EOSetTradeView.m */,
+				7662CEE91E691C300027F0D5 /* EOUpdatePasswordTableViewCell.h */,
+				7662CEEA1E691C300027F0D5 /* EOUpdatePasswordTableViewCell.m */,
+				7662CEEB1E691C300027F0D5 /* EOUpdatePasswordTableViewCell.xib */,
+				7662CEEC1E691C300027F0D5 /* EOWalletAddCardTableViewCell.h */,
+				7662CEED1E691C300027F0D5 /* EOWalletAddCardTableViewCell.m */,
+				7662CEEE1E691C300027F0D5 /* EOWalletAddCardTableViewCell.xib */,
+				7662CEEF1E691C300027F0D5 /* EOWalletBankCardTableViewCell.h */,
+				7662CEF01E691C300027F0D5 /* EOWalletBankCardTableViewCell.m */,
+				7662CEF11E691C300027F0D5 /* EOWalletBankCardTableViewCell.xib */,
+				7662CEF21E691C300027F0D5 /* EOWalletBankCardViewController.h */,
+				7662CEF31E691C300027F0D5 /* EOWalletBankCardViewController.m */,
+				7662CEF41E691C300027F0D5 /* EOWalletHeaderView.h */,
+				7662CEF51E691C300027F0D5 /* EOWalletHeaderView.m */,
+				7662CEF61E691C300027F0D5 /* EOWalletHeaderView.xib */,
+				7662CEF71E691C300027F0D5 /* EOWalletModel.h */,
+				7662CEF81E691C300027F0D5 /* EOWalletModel.m */,
+				7662CEF91E691C300027F0D5 /* EOWalletNoteDetailHeaderView.h */,
+				7662CEFA1E691C300027F0D5 /* EOWalletNoteDetailHeaderView.m */,
+				7662CEFB1E691C300027F0D5 /* EOWalletNoteDetailHeaderView.xib */,
+				7662CEFC1E691C300027F0D5 /* EOWalletNoteTableViewCell.h */,
+				7662CEFD1E691C300027F0D5 /* EOWalletNoteTableViewCell.m */,
+				7662CEFE1E691C300027F0D5 /* EOWalletNoteTableViewCell.xib */,
+				7662CEFF1E691C300027F0D5 /* EOWalletRecentlyCell.h */,
+				7662CF001E691C300027F0D5 /* EOWalletRecentlyCell.m */,
+				7662CF011E691C300027F0D5 /* EOWalletRecentlyCell.xib */,
+				7662CF021E691C300027F0D5 /* EOWalletViewController.h */,
+				7662CF031E691C300027F0D5 /* EOWalletViewController.m */,
+				7662CF041E691C300027F0D5 /* EOWalletWithDrawTableViewCell.h */,
+				7662CF051E691C300027F0D5 /* EOWalletWithDrawTableViewCell.m */,
+				7662CF061E691C300027F0D5 /* EOWalletWithDrawTableViewCell.xib */,
+				7662CF071E691C300027F0D5 /* EOWalletWithDrawViewController.h */,
+				7662CF081E691C300027F0D5 /* EOWalletWithDrawViewController.m */,
+				7662CF091E691C300027F0D5 /* EOWithDrawDetailCell.h */,
+				7662CF0A1E691C300027F0D5 /* EOWithDrawDetailCell.m */,
+				7662CF0B1E691C300027F0D5 /* EOWithDrawDetailCell.xib */,
+				7662CF0C1E691C300027F0D5 /* EOWithDrawDetailViewController.h */,
+				7662CF0D1E691C300027F0D5 /* EOWithDrawDetailViewController.m */,
+				7662CF0E1E691C300027F0D5 /* JiaoYiJiLuViewController.h */,
+				7662CF0F1E691C300027F0D5 /* JiaoYiJiLuViewController.m */,
+				7662CF101E691C300027F0D5 /* NewWalletLookDetailTableViewCell.h */,
+				7662CF111E691C300027F0D5 /* NewWalletLookDetailTableViewCell.m */,
+				7662CF121E691C300027F0D5 /* NewWalletLookDetailTableViewCell.xib */,
+				7662CF131E691C300027F0D5 /* NSString+WalletMD5.h */,
+				7662CF141E691C300027F0D5 /* NSString+WalletMD5.m */,
+				7662CF151E691C300027F0D5 /* PasswordEnterView.h */,
+				7662CF161E691C300027F0D5 /* PasswordEnterView.m */,
+				7662CF171E691C300027F0D5 /* PasswordTextField.h */,
+				7662CF181E691C300027F0D5 /* PasswordTextField.m */,
+				7662CF191E691C300027F0D5 /* PickerChoiceView.h */,
+				7662CF1A1E691C300027F0D5 /* PickerChoiceView.m */,
+				7662CF1B1E691C300027F0D5 /* Target_Wallet.h */,
+				7662CF1C1E691C300027F0D5 /* Target_Wallet.m */,
+				7662CF1D1E691C300027F0D5 /* TRWalletHeader.h */,
+				7662CF1E1E691C300027F0D5 /* TRZXWalletMacro.h */,
+				7662CF1F1E691C300027F0D5 /* UIView+Wallet_Frame.h */,
+				7662CF201E691C300027F0D5 /* UIView+Wallet_Frame.m */,
+				7662CF211E691C300027F0D5 /* VerifyPasswordPopView.h */,
+				7662CF221E691C300027F0D5 /* VerifyPasswordPopView.m */,
+				7662CF231E691C300027F0D5 /* wallet_accounDetail.png */,
+				7662CF241E691C300027F0D5 /* wallet_agree.png */,
+				7662CF251E691C300027F0D5 /* wallet_bank.png */,
+				7662CF261E691C300027F0D5 /* wallet_bank2.png */,
+				7662CF271E691C300027F0D5 /* wallet_bankCard.png */,
+				7662CF281E691C300027F0D5 /* wallet_charge.png */,
+				7662CF291E691C300027F0D5 /* wallet_choose.png */,
+				7662CF2A1E691C300027F0D5 /* wallet_close.png */,
+				7662CF2B1E691C300027F0D5 /* wallet_crad.png */,
+				7662CF2C1E691C300027F0D5 /* wallet_detail.png */,
+				7662CF2D1E691C300027F0D5 /* wallet_extesion.png */,
+				7662CF2E1E691C300027F0D5 /* wallet_rightbar.png */,
+				7662CF2F1E691C300027F0D5 /* wallet_time.png */,
+				7662CF301E691C300027F0D5 /* wallet_wallet.png */,
+				7662CF311E691C300027F0D5 /* wallet_withDraw.png */,
+				7662CF321E691C300027F0D5 /* WalletBaseViewController.h */,
+				7662CF331E691C300027F0D5 /* WalletBaseViewController.m */,
+				7662CF341E691C300027F0D5 /* WalletPayProtocolViewController.h */,
+				7662CF351E691C300027F0D5 /* WalletPayProtocolViewController.m */,
+				7662CF361E691C300027F0D5 /* white_Back.png */,
+				7662CF371E691C300027F0D5 /* ZhiFuMiMaController.h */,
+				7662CF381E691C300027F0D5 /* ZhiFuMiMaController.m */,
 			);
 			path = TRZXMyWallet;
 			sourceTree = "<group>";
@@ -303,9 +631,42 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7662CF391E691C300027F0D5 /* agree.png in Resources */,
+				7662CF821E691C300027F0D5 /* wallet_withDraw.png in Resources */,
+				7662CF7F1E691C300027F0D5 /* wallet_rightbar.png in Resources */,
+				7662CF621E691C300027F0D5 /* EOWalletRecentlyCell.xib in Resources */,
+				7662CF4D1E691C300027F0D5 /* EOEditMyMsgTableViewCell.xib in Resources */,
+				7662CF6C1E691C300027F0D5 /* NewWalletLookDetailTableViewCell.xib in Resources */,
+				7662CF851E691C300027F0D5 /* white_Back.png in Resources */,
+				7662CF761E691C300027F0D5 /* wallet_bank.png in Resources */,
+				7662CF401E691C300027F0D5 /* EOAddBankTypeCell.xib in Resources */,
+				7662CF7C1E691C300027F0D5 /* wallet_crad.png in Resources */,
+				7662CF541E691C300027F0D5 /* EOUpdatePasswordTableViewCell.xib in Resources */,
+				7662CF601E691C300027F0D5 /* EOWalletNoteTableViewCell.xib in Resources */,
+				7662CF741E691C300027F0D5 /* wallet_accounDetail.png in Resources */,
+				7662CF771E691C300027F0D5 /* wallet_bank2.png in Resources */,
+				7662CF651E691C300027F0D5 /* EOWalletWithDrawTableViewCell.xib in Resources */,
+				7662CF7E1E691C300027F0D5 /* wallet_extesion.png in Resources */,
+				7662CF561E691C300027F0D5 /* EOWalletAddCardTableViewCell.xib in Resources */,
+				7662CF681E691C300027F0D5 /* EOWithDrawDetailCell.xib in Resources */,
+				7662CF751E691C300027F0D5 /* wallet_agree.png in Resources */,
+				7662CF471E691C300027F0D5 /* EOChooseBankTableViewCell.xib in Resources */,
 				7662CE981E691AE30027F0D5 /* LaunchScreen.storyboard in Resources */,
+				7662CF811E691C300027F0D5 /* wallet_wallet.png in Resources */,
 				7662CE951E691AE30027F0D5 /* Assets.xcassets in Resources */,
+				7662CF5B1E691C300027F0D5 /* EOWalletHeaderView.xib in Resources */,
+				7662CF781E691C300027F0D5 /* wallet_bankCard.png in Resources */,
+				7662CF801E691C300027F0D5 /* wallet_time.png in Resources */,
+				7662CF7A1E691C300027F0D5 /* wallet_choose.png in Resources */,
+				7662CF421E691C300027F0D5 /* EOAgreeProTableViewCell.xib in Resources */,
+				7662CF791E691C300027F0D5 /* wallet_charge.png in Resources */,
+				7662CF7D1E691C300027F0D5 /* wallet_detail.png in Resources */,
+				7662CF5E1E691C300027F0D5 /* EOWalletNoteDetailHeaderView.xib in Resources */,
+				7662CF581E691C300027F0D5 /* EOWalletBankCardTableViewCell.xib in Resources */,
 				7662CE931E691AE30027F0D5 /* Main.storyboard in Resources */,
+				7662CF7B1E691C300027F0D5 /* wallet_close.png in Resources */,
+				7662CF4A1E691C300027F0D5 /* EOEditMailTableViewCell.xib in Resources */,
+				7662CF3B1E691C300027F0D5 /* ChongzhiVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -468,9 +829,54 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7662CF3D1E691C300027F0D5 /* DCPaymentView.m in Sources */,
+				7662CF4C1E691C300027F0D5 /* EOEditMyMsgTableViewCell.m in Sources */,
+				7662CF4E1E691C300027F0D5 /* EOForgetPayPasswordController.m in Sources */,
+				7662CF721E691C300027F0D5 /* UIView+Wallet_Frame.m in Sources */,
+				7662CF6D1E691C300027F0D5 /* NSString+WalletMD5.m in Sources */,
+				7662CF501E691C300027F0D5 /* EOMyWalletViewModel.m in Sources */,
+				7662CF591E691C300027F0D5 /* EOWalletBankCardViewController.m in Sources */,
+				7662CF611E691C300027F0D5 /* EOWalletRecentlyCell.m in Sources */,
+				7662CF841E691C300027F0D5 /* WalletPayProtocolViewController.m in Sources */,
+				7662CF511E691C300027F0D5 /* EOPasswordView.m in Sources */,
+				7662CF3F1E691C300027F0D5 /* EOAddBankTypeCell.m in Sources */,
+				7662CF4B1E691C300027F0D5 /* EOEditMyInfoViewController.m in Sources */,
+				7662CF711E691C300027F0D5 /* Target_Wallet.m in Sources */,
+				7662CF5C1E691C300027F0D5 /* EOWalletModel.m in Sources */,
+				7662CF861E691C300027F0D5 /* ZhiFuMiMaController.m in Sources */,
+				7662CF451E691C300027F0D5 /* EOBankAouthViewController.m in Sources */,
+				7662CF461E691C300027F0D5 /* EOChooseBankTableViewCell.m in Sources */,
+				7662CF5D1E691C300027F0D5 /* EOWalletNoteDetailHeaderView.m in Sources */,
+				7662CF831E691C300027F0D5 /* WalletBaseViewController.m in Sources */,
 				7662CE901E691AE30027F0D5 /* ViewController.m in Sources */,
+				7662CF441E691C300027F0D5 /* EOAuothPhoneViewController.m in Sources */,
+				7662CF631E691C300027F0D5 /* EOWalletViewController.m in Sources */,
+				7662CF641E691C300027F0D5 /* EOWalletWithDrawTableViewCell.m in Sources */,
+				7662CF571E691C300027F0D5 /* EOWalletBankCardTableViewCell.m in Sources */,
+				7662CF5A1E691C300027F0D5 /* EOWalletHeaderView.m in Sources */,
+				7662CF5F1E691C300027F0D5 /* EOWalletNoteTableViewCell.m in Sources */,
+				7662CF411E691C300027F0D5 /* EOAgreeProTableViewCell.m in Sources */,
+				7662CF521E691C300027F0D5 /* EOSetTradeView.m in Sources */,
+				7662CF691E691C300027F0D5 /* EOWithDrawDetailViewController.m in Sources */,
+				7662CF6B1E691C300027F0D5 /* NewWalletLookDetailTableViewCell.m in Sources */,
+				7662CF431E691C300027F0D5 /* EOAouthViewController.m in Sources */,
+				7662CF6E1E691C300027F0D5 /* PasswordEnterView.m in Sources */,
 				7662CE8D1E691AE30027F0D5 /* AppDelegate.m in Sources */,
+				7662CF731E691C300027F0D5 /* VerifyPasswordPopView.m in Sources */,
+				7662CF661E691C300027F0D5 /* EOWalletWithDrawViewController.m in Sources */,
+				7662CF531E691C300027F0D5 /* EOUpdatePasswordTableViewCell.m in Sources */,
+				7662CF3A1E691C300027F0D5 /* ChongzhiVC.m in Sources */,
+				7662CF3C1E691C300027F0D5 /* CTMediator+Wallet.m in Sources */,
+				7662CF491E691C300027F0D5 /* EOEditMailTableViewCell.m in Sources */,
+				7662CF6F1E691C300027F0D5 /* PasswordTextField.m in Sources */,
+				7662CF671E691C300027F0D5 /* EOWithDrawDetailCell.m in Sources */,
+				7662CF6A1E691C300027F0D5 /* JiaoYiJiLuViewController.m in Sources */,
+				7662CF3E1E691C300027F0D5 /* EOAddBankMsgViewController.m in Sources */,
+				7662CF701E691C300027F0D5 /* PickerChoiceView.m in Sources */,
+				7662CF551E691C300027F0D5 /* EOWalletAddCardTableViewCell.m in Sources */,
+				7662CF4F1E691C300027F0D5 /* EOMeHomeModel.m in Sources */,
 				7662CE8A1E691AE30027F0D5 /* main.m in Sources */,
+				7662CF481E691C300027F0D5 /* EODeleteCardViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

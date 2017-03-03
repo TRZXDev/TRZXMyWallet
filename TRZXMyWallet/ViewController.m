@@ -6,7 +6,9 @@
 //  Copyright © 2017年 Rhino. All rights reserved.
 //
 
+
 #import "ViewController.h"
+#import "CTMediator+Wallet.h"
 
 @interface ViewController ()
 
@@ -20,7 +22,12 @@
 }
 
 
-- (void)didReceiveMemoryWarning {
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
+    UIViewController *wallet = [[CTMediator sharedInstance]wallet_HomeViewController:@{}];
+    [self.navigationController pushViewController:wallet animated:YES];
+}
+
+-(void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
