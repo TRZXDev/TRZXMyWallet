@@ -232,7 +232,6 @@
 		7662CF1A1E691C300027F0D5 /* PickerChoiceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PickerChoiceView.m; sourceTree = "<group>"; };
 		7662CF1B1E691C300027F0D5 /* Target_Wallet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Target_Wallet.h; sourceTree = "<group>"; };
 		7662CF1C1E691C300027F0D5 /* Target_Wallet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Target_Wallet.m; sourceTree = "<group>"; };
-		7662CF1D1E691C300027F0D5 /* TRWalletHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRWalletHeader.h; sourceTree = "<group>"; };
 		7662CF1E1E691C300027F0D5 /* TRZXWalletMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRZXWalletMacro.h; sourceTree = "<group>"; };
 		7662CF1F1E691C300027F0D5 /* UIView+Wallet_Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Wallet_Frame.h"; sourceTree = "<group>"; };
 		7662CF201E691C300027F0D5 /* UIView+Wallet_Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Wallet_Frame.m"; sourceTree = "<group>"; };
@@ -474,7 +473,6 @@
 				7662CF1A1E691C300027F0D5 /* PickerChoiceView.m */,
 				7662CF1B1E691C300027F0D5 /* Target_Wallet.h */,
 				7662CF1C1E691C300027F0D5 /* Target_Wallet.m */,
-				7662CF1D1E691C300027F0D5 /* TRWalletHeader.h */,
 				7662CF1E1E691C300027F0D5 /* TRZXWalletMacro.h */,
 				7662CF1F1E691C300027F0D5 /* UIView+Wallet_Frame.h */,
 				7662CF201E691C300027F0D5 /* UIView+Wallet_Frame.m */,
@@ -495,11 +493,11 @@
 				7662CF2F1E691C300027F0D5 /* wallet_time.png */,
 				7662CF301E691C300027F0D5 /* wallet_wallet.png */,
 				7662CF311E691C300027F0D5 /* wallet_withDraw.png */,
+				7662CF361E691C300027F0D5 /* white_Back.png */,
 				7662CF321E691C300027F0D5 /* WalletBaseViewController.h */,
 				7662CF331E691C300027F0D5 /* WalletBaseViewController.m */,
 				7662CF341E691C300027F0D5 /* WalletPayProtocolViewController.h */,
 				7662CF351E691C300027F0D5 /* WalletPayProtocolViewController.m */,
-				7662CF361E691C300027F0D5 /* white_Back.png */,
 				7662CF371E691C300027F0D5 /* ZhiFuMiMaController.h */,
 				7662CF381E691C300027F0D5 /* ZhiFuMiMaController.m */,
 			);

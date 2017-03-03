@@ -10,14 +10,14 @@
 #ifndef TRZXWalletMacro_h
 #define TRZXWalletMacro_h
 
-#import "MJExtension.h"
-#import "Masonry.h"
-#import "UIView+Wallet_Frame.h"
-#import "IQKeyboardManager.h"
+#import <MJExtension/MJExtension.h>
+#import <Masonry/Masonry.h>
+#import <TRZXKit/TRZXKit.h>
+#import <IQKeyboardManager/IQKeyboardManager.h>
+
 #import "NSString+WalletMD5.h"
 #import "EOMyWalletViewModel.h"
-#import "TRZXKit.h"
-
+#import "UIView+Wallet_Frame.h"
 /** 主题颜色 */
 #define TRZXWalletMainColor [UIColor trzx_RedColor]
 

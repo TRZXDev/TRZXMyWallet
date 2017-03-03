@@ -6,7 +6,7 @@
 //  Copyright © 2017年 Rhino. All rights reserved.
 //
 
-#import "CTMediator.h"
+#import <CTMediator/CTMediator.h>
 #import <UIKit/UIKit.h>
 
 @interface CTMediator (Wallet)
