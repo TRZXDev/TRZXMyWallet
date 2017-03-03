@@ -1,0 +1,734 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3FEE7E58B9FE75FB526A2FF8 /* libPods-TRZXMyWalletUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 82651BDF94C9A1219162648B /* libPods-TRZXMyWalletUITests.a */; };
+		7662CE8A1E691AE30027F0D5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7662CE891E691AE30027F0D5 /* main.m */; };
+		7662CE8D1E691AE30027F0D5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7662CE8C1E691AE30027F0D5 /* AppDelegate.m */; };
+		7662CE901E691AE30027F0D5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7662CE8F1E691AE30027F0D5 /* ViewController.m */; };
+		7662CE931E691AE30027F0D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7662CE911E691AE30027F0D5 /* Main.storyboard */; };
+		7662CE951E691AE30027F0D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7662CE941E691AE30027F0D5 /* Assets.xcassets */; };
+		7662CE981E691AE30027F0D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7662CE961E691AE30027F0D5 /* LaunchScreen.storyboard */; };
+		7662CEA31E691AE30027F0D5 /* TRZXMyWalletTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7662CEA21E691AE30027F0D5 /* TRZXMyWalletTests.m */; };
+		7662CEAE1E691AE30027F0D5 /* TRZXMyWalletUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7662CEAD1E691AE30027F0D5 /* TRZXMyWalletUITests.m */; };
+		7C5883152B5A8C6C423920D8 /* libPods-TRZXMyWallet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F877130C8E1976AE7DA6D30 /* libPods-TRZXMyWallet.a */; };
+		CD2CC4EA8CCDE63FC82B992E /* libPods-TRZXMyWalletTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A41B6315F5F5B2275CFBED82 /* libPods-TRZXMyWalletTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7662CE9F1E691AE30027F0D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7662CE7D1E691AE30027F0D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7662CE841E691AE30027F0D5;
+			remoteInfo = TRZXMyWallet;
+		};
+		7662CEAA1E691AE30027F0D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7662CE7D1E691AE30027F0D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7662CE841E691AE30027F0D5;
+			remoteInfo = TRZXMyWallet;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2F877130C8E1976AE7DA6D30 /* libPods-TRZXMyWallet.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TRZXMyWallet.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		373F66D8E26C17D3035F61CF /* Pods-TRZXMyWalletTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TRZXMyWalletTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TRZXMyWalletTests/Pods-TRZXMyWalletTests.release.xcconfig"; sourceTree = "<group>"; };
+		470B0174B3BEBE3880A51496 /* Pods-TRZXMyWalletUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TRZXMyWalletUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TRZXMyWalletUITests/Pods-TRZXMyWalletUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7662CE851E691AE30027F0D5 /* TRZXMyWallet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TRZXMyWallet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7662CE891E691AE30027F0D5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7662CE8B1E691AE30027F0D5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7662CE8C1E691AE30027F0D5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7662CE8E1E691AE30027F0D5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7662CE8F1E691AE30027F0D5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7662CE921E691AE30027F0D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7662CE941E691AE30027F0D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7662CE971E691AE30027F0D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7662CE991E691AE30027F0D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7662CE9E1E691AE30027F0D5 /* TRZXMyWalletTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TRZXMyWalletTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7662CEA21E691AE30027F0D5 /* TRZXMyWalletTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TRZXMyWalletTests.m; sourceTree = "<group>"; };
+		7662CEA41E691AE30027F0D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7662CEA91E691AE30027F0D5 /* TRZXMyWalletUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TRZXMyWalletUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7662CEAD1E691AE30027F0D5 /* TRZXMyWalletUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TRZXMyWalletUITests.m; sourceTree = "<group>"; };
+		7662CEAF1E691AE30027F0D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82651BDF94C9A1219162648B /* libPods-TRZXMyWalletUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TRZXMyWalletUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A41B6315F5F5B2275CFBED82 /* libPods-TRZXMyWalletTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TRZXMyWalletTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD9FC0EF44C33DE4099C93B6 /* Pods-TRZXMyWalletUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TRZXMyWalletUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TRZXMyWalletUITests/Pods-TRZXMyWalletUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DB5601D15B557C36F540C417 /* Pods-TRZXMyWallet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TRZXMyWallet.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TRZXMyWallet/Pods-TRZXMyWallet.debug.xcconfig"; sourceTree = "<group>"; };
+		E3C42743E723107913360AF2 /* Pods-TRZXMyWallet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TRZXMyWallet.release.xcconfig"; path = "Pods/Target Support Files/Pods-TRZXMyWallet/Pods-TRZXMyWallet.release.xcconfig"; sourceTree = "<group>"; };
+		E5ECF68A4A4ED3576C5E38FE /* Pods-TRZXMyWalletTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TRZXMyWalletTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TRZXMyWalletTests/Pods-TRZXMyWalletTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7662CE821E691AE30027F0D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C5883152B5A8C6C423920D8 /* libPods-TRZXMyWallet.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7662CE9B1E691AE30027F0D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD2CC4EA8CCDE63FC82B992E /* libPods-TRZXMyWalletTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7662CEA61E691AE30027F0D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FEE7E58B9FE75FB526A2FF8 /* libPods-TRZXMyWalletUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22491AD8A944E038FC81E777 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DB5601D15B557C36F540C417 /* Pods-TRZXMyWallet.debug.xcconfig */,
+				E3C42743E723107913360AF2 /* Pods-TRZXMyWallet.release.xcconfig */,
+				E5ECF68A4A4ED3576C5E38FE /* Pods-TRZXMyWalletTests.debug.xcconfig */,
+				373F66D8E26C17D3035F61CF /* Pods-TRZXMyWalletTests.release.xcconfig */,
+				470B0174B3BEBE3880A51496 /* Pods-TRZXMyWalletUITests.debug.xcconfig */,
+				BD9FC0EF44C33DE4099C93B6 /* Pods-TRZXMyWalletUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7662CE7C1E691AE30027F0D5 = {
+			isa = PBXGroup;
+			children = (
+				7662CE871E691AE30027F0D5 /* TRZXMyWallet */,
+				7662CEA11E691AE30027F0D5 /* TRZXMyWalletTests */,
+				7662CEAC1E691AE30027F0D5 /* TRZXMyWalletUITests */,
+				7662CE861E691AE30027F0D5 /* Products */,
+				22491AD8A944E038FC81E777 /* Pods */,
+				EE200A7B44D7B4D3C69DDBAE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7662CE861E691AE30027F0D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7662CE851E691AE30027F0D5 /* TRZXMyWallet.app */,
+				7662CE9E1E691AE30027F0D5 /* TRZXMyWalletTests.xctest */,
+				7662CEA91E691AE30027F0D5 /* TRZXMyWalletUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7662CE871E691AE30027F0D5 /* TRZXMyWallet */ = {
+			isa = PBXGroup;
+			children = (
+				7662CE8B1E691AE30027F0D5 /* AppDelegate.h */,
+				7662CE8C1E691AE30027F0D5 /* AppDelegate.m */,
+				7662CE8E1E691AE30027F0D5 /* ViewController.h */,
+				7662CE8F1E691AE30027F0D5 /* ViewController.m */,
+				7662CEBB1E691B070027F0D5 /* TRZXMyWallet */,
+				7662CE911E691AE30027F0D5 /* Main.storyboard */,
+				7662CE941E691AE30027F0D5 /* Assets.xcassets */,
+				7662CE961E691AE30027F0D5 /* LaunchScreen.storyboard */,
+				7662CE991E691AE30027F0D5 /* Info.plist */,
+				7662CE881E691AE30027F0D5 /* Supporting Files */,
+			);
+			path = TRZXMyWallet;
+			sourceTree = "<group>";
+		};
+		7662CE881E691AE30027F0D5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7662CE891E691AE30027F0D5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7662CEA11E691AE30027F0D5 /* TRZXMyWalletTests */ = {
+			isa = PBXGroup;
+			children = (
+				7662CEA21E691AE30027F0D5 /* TRZXMyWalletTests.m */,
+				7662CEA41E691AE30027F0D5 /* Info.plist */,
+			);
+			path = TRZXMyWalletTests;
+			sourceTree = "<group>";
+		};
+		7662CEAC1E691AE30027F0D5 /* TRZXMyWalletUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7662CEAD1E691AE30027F0D5 /* TRZXMyWalletUITests.m */,
+				7662CEAF1E691AE30027F0D5 /* Info.plist */,
+			);
+			path = TRZXMyWalletUITests;
+			sourceTree = "<group>";
+		};
+		7662CEBB1E691B070027F0D5 /* TRZXMyWallet */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TRZXMyWallet;
+			sourceTree = "<group>";
+		};
+		EE200A7B44D7B4D3C69DDBAE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2F877130C8E1976AE7DA6D30 /* libPods-TRZXMyWallet.a */,
+				A41B6315F5F5B2275CFBED82 /* libPods-TRZXMyWalletTests.a */,
+				82651BDF94C9A1219162648B /* libPods-TRZXMyWalletUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7662CE841E691AE30027F0D5 /* TRZXMyWallet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7662CEB21E691AE30027F0D5 /* Build configuration list for PBXNativeTarget "TRZXMyWallet" */;
+			buildPhases = (
+				51B9DE41671CE979C18E5189 /* [CP] Check Pods Manifest.lock */,
+				7662CE811E691AE30027F0D5 /* Sources */,
+				7662CE821E691AE30027F0D5 /* Frameworks */,
+				7662CE831E691AE30027F0D5 /* Resources */,
+				70AEB03BC28FB9A413C331D3 /* [CP] Embed Pods Frameworks */,
+				03D9FBE2E39DF55FBDC5E5D9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TRZXMyWallet;
+			productName = TRZXMyWallet;
+			productReference = 7662CE851E691AE30027F0D5 /* TRZXMyWallet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7662CE9D1E691AE30027F0D5 /* TRZXMyWalletTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7662CEB51E691AE30027F0D5 /* Build configuration list for PBXNativeTarget "TRZXMyWalletTests" */;
+			buildPhases = (
+				F5BDB57D9A8F00F95B8E3E06 /* [CP] Check Pods Manifest.lock */,
+				7662CE9A1E691AE30027F0D5 /* Sources */,
+				7662CE9B1E691AE30027F0D5 /* Frameworks */,
+				7662CE9C1E691AE30027F0D5 /* Resources */,
+				79108C886430CA3CE967DD2D /* [CP] Embed Pods Frameworks */,
+				1D827D772680961444815794 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7662CEA01E691AE30027F0D5 /* PBXTargetDependency */,
+			);
+			name = TRZXMyWalletTests;
+			productName = TRZXMyWalletTests;
+			productReference = 7662CE9E1E691AE30027F0D5 /* TRZXMyWalletTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7662CEA81E691AE30027F0D5 /* TRZXMyWalletUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7662CEB81E691AE30027F0D5 /* Build configuration list for PBXNativeTarget "TRZXMyWalletUITests" */;
+			buildPhases = (
+				4CEA2713BAC48641BC290E43 /* [CP] Check Pods Manifest.lock */,
+				7662CEA51E691AE30027F0D5 /* Sources */,
+				7662CEA61E691AE30027F0D5 /* Frameworks */,
+				7662CEA71E691AE30027F0D5 /* Resources */,
+				AB7693F51243FB24CAE82BD0 /* [CP] Embed Pods Frameworks */,
+				9D4C7141FEACD105BC5809B0 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7662CEAB1E691AE30027F0D5 /* PBXTargetDependency */,
+			);
+			name = TRZXMyWalletUITests;
+			productName = TRZXMyWalletUITests;
+			productReference = 7662CEA91E691AE30027F0D5 /* TRZXMyWalletUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7662CE7D1E691AE30027F0D5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Rhino;
+				TargetAttributes = {
+					7662CE841E691AE30027F0D5 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					7662CE9D1E691AE30027F0D5 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7662CE841E691AE30027F0D5;
+					};
+					7662CEA81E691AE30027F0D5 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7662CE841E691AE30027F0D5;
+					};
+				};
+			};
+			buildConfigurationList = 7662CE801E691AE30027F0D5 /* Build configuration list for PBXProject "TRZXMyWallet" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7662CE7C1E691AE30027F0D5;
+			productRefGroup = 7662CE861E691AE30027F0D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7662CE841E691AE30027F0D5 /* TRZXMyWallet */,
+				7662CE9D1E691AE30027F0D5 /* TRZXMyWalletTests */,
+				7662CEA81E691AE30027F0D5 /* TRZXMyWalletUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7662CE831E691AE30027F0D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7662CE981E691AE30027F0D5 /* LaunchScreen.storyboard in Resources */,
+				7662CE951E691AE30027F0D5 /* Assets.xcassets in Resources */,
+				7662CE931E691AE30027F0D5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7662CE9C1E691AE30027F0D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7662CEA71E691AE30027F0D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		03D9FBE2E39DF55FBDC5E5D9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TRZXMyWallet/Pods-TRZXMyWallet-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1D827D772680961444815794 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TRZXMyWalletTests/Pods-TRZXMyWalletTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4CEA2713BAC48641BC290E43 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		51B9DE41671CE979C18E5189 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		70AEB03BC28FB9A413C331D3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TRZXMyWallet/Pods-TRZXMyWallet-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		79108C886430CA3CE967DD2D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TRZXMyWalletTests/Pods-TRZXMyWalletTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D4C7141FEACD105BC5809B0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TRZXMyWalletUITests/Pods-TRZXMyWalletUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB7693F51243FB24CAE82BD0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TRZXMyWalletUITests/Pods-TRZXMyWalletUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F5BDB57D9A8F00F95B8E3E06 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7662CE811E691AE30027F0D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7662CE901E691AE30027F0D5 /* ViewController.m in Sources */,
+				7662CE8D1E691AE30027F0D5 /* AppDelegate.m in Sources */,
+				7662CE8A1E691AE30027F0D5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7662CE9A1E691AE30027F0D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7662CEA31E691AE30027F0D5 /* TRZXMyWalletTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7662CEA51E691AE30027F0D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7662CEAE1E691AE30027F0D5 /* TRZXMyWalletUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7662CEA01E691AE30027F0D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7662CE841E691AE30027F0D5 /* TRZXMyWallet */;
+			targetProxy = 7662CE9F1E691AE30027F0D5 /* PBXContainerItemProxy */;
+		};
+		7662CEAB1E691AE30027F0D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7662CE841E691AE30027F0D5 /* TRZXMyWallet */;
+			targetProxy = 7662CEAA1E691AE30027F0D5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7662CE911E691AE30027F0D5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7662CE921E691AE30027F0D5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7662CE961E691AE30027F0D5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7662CE971E691AE30027F0D5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7662CEB01E691AE30027F0D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7662CEB11E691AE30027F0D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7662CEB31E691AE30027F0D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB5601D15B557C36F540C417 /* Pods-TRZXMyWallet.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TRZXMyWallet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kipo.TRZXMyWallet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7662CEB41E691AE30027F0D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3C42743E723107913360AF2 /* Pods-TRZXMyWallet.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TRZXMyWallet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kipo.TRZXMyWallet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7662CEB61E691AE30027F0D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5ECF68A4A4ED3576C5E38FE /* Pods-TRZXMyWalletTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TRZXMyWalletTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kipo.TRZXMyWalletTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TRZXMyWallet.app/TRZXMyWallet";
+			};
+			name = Debug;
+		};
+		7662CEB71E691AE30027F0D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 373F66D8E26C17D3035F61CF /* Pods-TRZXMyWalletTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TRZXMyWalletTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kipo.TRZXMyWalletTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TRZXMyWallet.app/TRZXMyWallet";
+			};
+			name = Release;
+		};
+		7662CEB91E691AE30027F0D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 470B0174B3BEBE3880A51496 /* Pods-TRZXMyWalletUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = TRZXMyWalletUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kipo.TRZXMyWalletUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TRZXMyWallet;
+			};
+			name = Debug;
+		};
+		7662CEBA1E691AE30027F0D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD9FC0EF44C33DE4099C93B6 /* Pods-TRZXMyWalletUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = TRZXMyWalletUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kipo.TRZXMyWalletUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TRZXMyWallet;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7662CE801E691AE30027F0D5 /* Build configuration list for PBXProject "TRZXMyWallet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7662CEB01E691AE30027F0D5 /* Debug */,
+				7662CEB11E691AE30027F0D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7662CEB21E691AE30027F0D5 /* Build configuration list for PBXNativeTarget "TRZXMyWallet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7662CEB31E691AE30027F0D5 /* Debug */,
+				7662CEB41E691AE30027F0D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7662CEB51E691AE30027F0D5 /* Build configuration list for PBXNativeTarget "TRZXMyWalletTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7662CEB61E691AE30027F0D5 /* Debug */,
+				7662CEB71E691AE30027F0D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7662CEB81E691AE30027F0D5 /* Build configuration list for PBXNativeTarget "TRZXMyWalletUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7662CEB91E691AE30027F0D5 /* Debug */,
+				7662CEBA1E691AE30027F0D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7662CE7D1E691AE30027F0D5 /* Project object */;
+}
