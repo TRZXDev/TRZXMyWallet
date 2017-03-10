@@ -13,9 +13,7 @@
 #import "EOAddBankTypeCell.h"
 #import "EOAgreeProTableViewCell.h"
 #import "EOWalletAddCardTableViewCell.h"
-
 #import "EOWalletModel.h"
-
 #import "TRZXWalletMacro.h"
 
 
@@ -90,7 +88,7 @@ static  NSString *bankIdentifier = @"EOAddBankTypeCell";
     if (indexPath.row == 0) {
         EOAddBankTypeCell *cell = [tableView dequeueReusableCellWithIdentifier:bankIdentifier forIndexPath:indexPath];
         cell.cardNO.delegate =self;
-        cell.userNameTF.text = @"sssss";//[KPOUserDefaults name];
+        cell.userNameTF.text = [Login curLoginUser].name;//[KPOUserDefaults name];
         cell.userNameTF.enabled = NO;
         self.cardNoTF = cell.cardNO;
         [cell.userNameTF addTarget:self action:@selector(textChanged:) forControlEvents:UIControlEventEditingChanged];

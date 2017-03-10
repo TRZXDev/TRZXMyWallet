@@ -14,6 +14,7 @@
 #import <Masonry/Masonry.h>
 #import <TRZXKit/TRZXKit.h>
 #import <IQKeyboardManager/IQKeyboardManager.h>
+#import <TRZXLogin/Login.h>
 
 #import "NSString+WalletMD5.h"
 #import "EOMyWalletViewModel.h"

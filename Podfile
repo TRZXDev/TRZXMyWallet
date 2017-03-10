@@ -17,6 +17,7 @@ target 'TRZXMyWallet' do
     pod 'IQKeyboardManager'
     pod 'TRZXDVSwitch'
     pod 'CTMediator'
+    pod 'TRZXLogin'
 
   target 'TRZXMyWalletTests' do
     inherit! :search_paths

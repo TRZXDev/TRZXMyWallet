@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'CEBBEDA8D345B4D3167AC5051E045A25'
+               BlueprintIdentifier = '89819F93638664E2715BA83E5A1306C7'
                BlueprintName = 'Pods-TRZXMyWallet'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libPods-TRZXMyWallet.a'>
