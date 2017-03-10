@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "TRZXMyWallet"
-  s.version      = "0.0.3"
+  s.version      = "0.0.4"
   s.summary      = "TRZXWallet 钱包组件"
 
   s.homepage     = "https://github.com/TRZXDev/TRZXMyWallet.git"
@@ -27,6 +27,7 @@ Pod::Spec.new do |s|
   s.dependency 'CTMediator'
   s.dependency 'MJRefresh'
   s.dependency 'TRZXKit'
+  s.dependency 'TRZXLogin'
 
   s.requires_arc = true
 
