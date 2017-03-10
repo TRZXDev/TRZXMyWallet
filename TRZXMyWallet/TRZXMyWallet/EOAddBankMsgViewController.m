@@ -247,6 +247,7 @@ static  NSString *bankIdentifier = @"EOAddBankTypeCell";
     } failure:^(NSError *error) {
         
     }];
+  
 }
 
 - (void)goBackView:(id)sender
