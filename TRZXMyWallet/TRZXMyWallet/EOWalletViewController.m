@@ -73,7 +73,7 @@
 - (void)viewDidLoad {
     
     [super viewDidLoad];
-    
+    self.view.backgroundColor = WalletbackColor;
     [self addUI];
     _isRefersh = NO;
     [self initRequest];
