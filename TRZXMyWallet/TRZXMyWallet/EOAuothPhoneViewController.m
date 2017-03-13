@@ -40,7 +40,7 @@
 - (void)createUI
 {
     
-    EOWalletNoteDetailHeaderView *headerView = [[[NSBundle mainBundle]loadNibNamed:@"EOWalletNoteDetailHeaderView" owner:self options:nil] firstObject];
+    EOWalletNoteDetailHeaderView *headerView = [[TRZXWalletBundle loadNibNamed:@"EOWalletNoteDetailHeaderView" owner:self options:nil] firstObject];
     headerView.frame                         = CGRectMake(0, 0,[[UIScreen mainScreen]bounds].size.width,60);
     headerView.topLable.hidden = NO;
     headerView.bottomLabel.hidden = NO;

@@ -130,7 +130,7 @@
     static NSString *cellID = @"cellID";
     EOWalletNoteTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellID];
     if (!cell) {
-        cell = [[[NSBundle mainBundle] loadNibNamed:@"EOWalletNoteTableViewCell" owner:self options:nil] lastObject];
+        cell = [[TRZXWalletBundle loadNibNamed:@"EOWalletNoteTableViewCell" owner:self options:nil] lastObject];
     }
     if ([_typeStr isEqualToString:@"all"]) {
         EOWalletRecordModel *mode = [_allArr objectAtIndex:indexPath.row];

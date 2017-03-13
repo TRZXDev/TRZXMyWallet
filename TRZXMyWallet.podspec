@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "TRZXMyWallet"
-  s.version      = "0.0.4"
+  s.version      = "0.0.5"
   s.summary      = "TRZXWallet 钱包组件"
 
   s.homepage     = "https://github.com/TRZXDev/TRZXMyWallet.git"

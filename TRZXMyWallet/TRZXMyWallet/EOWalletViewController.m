@@ -151,7 +151,7 @@
     self.rightBtn = btn;
     
     self.automaticallyAdjustsScrollViewInsets = NO;
-    EOWalletHeaderView *headerView = [[[NSBundle mainBundle]loadNibNamed:@"EOWalletHeaderView" owner:self options:nil] firstObject];
+    EOWalletHeaderView *headerView = [[TRZXWalletBundle loadNibNamed:@"EOWalletHeaderView" owner:self options:nil] firstObject];
     self.tableView.tableHeaderView = headerView;
     
     [headerView.accountDetailButton addTarget:self action:@selector(buttonClick:) forControlEvents:UIControlEventTouchUpInside];
@@ -273,7 +273,7 @@
     if (indexPath.row == self.dataSource.count+1) {
         NewWalletLookDetailTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cell"];
         if (cell == nil) {
-            cell = [[[NSBundle mainBundle]loadNibNamed:NSStringFromClass([NewWalletLookDetailTableViewCell class]) owner:self options:nil] firstObject];
+            cell = [[TRZXWalletBundle loadNibNamed:NSStringFromClass([NewWalletLookDetailTableViewCell class]) owner:self options:nil] firstObject];
         }
         [cell.lookButton addTarget:self action:@selector(noteDetail) forControlEvents:UIControlEventTouchUpInside];
         return cell;

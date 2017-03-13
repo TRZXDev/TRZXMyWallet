@@ -26,6 +26,8 @@
 [UIColor colorWithRed:R/255.f green:G/255.f blue:B/255.f alpha:A]
 
 
+#define TRZXWalletBundle [NSBundle bundleForClass:[self class]]
+
 //定义宏（限制输入内容）
 #define kWalletAlphaNum  @"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789"
 #define kWalletAlpha     @"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"
