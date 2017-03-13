@@ -59,12 +59,18 @@ static  NSString *addIdentifier = @"EOWalletAddCardTableViewCell";
 {
     if (indexPath.row == 0) {
         EOWithDrawDetailCell *cell = [tableView dequeueReusableCellWithIdentifier:deatilIdentifier forIndexPath:indexPath];
+        if (cell == nil) {
+            cell= [[TRZXWalletBundle loadNibNamed:NSStringFromClass([EOWithDrawDetailCell class]) owner:nil options:nil] firstObject];
+        }
         cell.countLabel.text = [NSString stringWithFormat:@"¥%.2f",[self.money floatValue]] ;
         cell.bankNumber.text =  self.bankNumber;
         return cell;
     }else if (indexPath.row == 1)
     {
         EOWalletAddCardTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:addIdentifier forIndexPath:indexPath];
+        if (cell == nil) {
+            cell= [[TRZXWalletBundle loadNibNamed:NSStringFromClass([EOWalletAddCardTableViewCell class]) owner:nil options:nil] firstObject];
+        }
         cell.addLabel.text = @"完成";
         cell.addLabel.textColor = [UIColor whiteColor];
         cell.addLabel.backgroundColor = TRZXWalletMainColor;

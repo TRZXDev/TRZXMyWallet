@@ -94,8 +94,8 @@ static  NSString *addIdentifier = @"EOWalletAddCardTableViewCell";
     [self registerTitleLabe:@"提现"];
    
     [self.view addSubview:self.tableView];
-    [self.tableView registerNib:[UINib nibWithNibName:@"EOWalletWithDrawTableViewCell" bundle:nil] forCellReuseIdentifier:withDrawIdentify];
-    [self.tableView registerNib:[UINib nibWithNibName:@"EOWalletAddCardTableViewCell" bundle:nil] forCellReuseIdentifier:addIdentifier];
+//    [self.tableView registerNib:[UINib nibWithNibName:@"EOWalletWithDrawTableViewCell" bundle:nil] forCellReuseIdentifier:withDrawIdentify];
+//    [self.tableView registerNib:[UINib nibWithNibName:@"EOWalletAddCardTableViewCell" bundle:nil] forCellReuseIdentifier:addIdentifier];
 }
 
 #pragma mark - tableViewDelegate
@@ -108,7 +108,10 @@ static  NSString *addIdentifier = @"EOWalletAddCardTableViewCell";
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     if (indexPath.row == 0) {
-        EOWalletWithDrawTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:withDrawIdentify forIndexPath:indexPath];
+        EOWalletWithDrawTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:withDrawIdentify];
+        if (cell == nil) {
+            cell= [[TRZXWalletBundle loadNibNamed:NSStringFromClass([EOWalletWithDrawTableViewCell class]) owner:nil options:nil] firstObject];
+        }
         [cell.chooseCardButton addTarget:self action:@selector(chooseBankCardClick) forControlEvents:UIControlEventTouchUpInside];
         [cell.moneyTF addTarget:self action:@selector(textChanged:) forControlEvents:UIControlEventEditingChanged];
         cell.moneyTF.placeholder = @"单笔提现金额不低于200元";
@@ -127,9 +130,10 @@ static  NSString *addIdentifier = @"EOWalletAddCardTableViewCell";
         return cell;
     }else if (indexPath.row == 1)
     {
-        EOWalletAddCardTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:addIdentifier forIndexPath:indexPath];
-
-
+        EOWalletAddCardTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:addIdentifier];
+        if (cell == nil) {
+            cell= [[TRZXWalletBundle loadNibNamed:NSStringFromClass([EOWalletAddCardTableViewCell class]) owner:nil options:nil] firstObject];
+        }
         cell.addButton.backgroundColor = [UIColor colorWithRed:215.0/255.0 green:0/255.0 blue:15.0/255.0 alpha:0.5];
         cell.addButton.hidden = NO;
         cell.addButton.enabled = NO;

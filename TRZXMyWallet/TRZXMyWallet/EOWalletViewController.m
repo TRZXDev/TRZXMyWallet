@@ -246,7 +246,10 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     if (indexPath.row == 0) {
-        EOWalletRecentlyCell *cell = [tableView dequeueReusableCellWithIdentifier:recentlyIdentifier forIndexPath:indexPath];
+        EOWalletRecentlyCell *cell = [tableView dequeueReusableCellWithIdentifier:recentlyIdentifier];
+        if (cell == nil) {
+            cell = [[TRZXWalletBundle loadNibNamed:NSStringFromClass([EOWalletNoteTableViewCell class]) owner:nil options:nil] lastObject];
+        }
         if (self.dataSource.count != 0) {
             cell.updateDate = self.updateDate;
         }
@@ -279,7 +282,11 @@
         return cell;
     }
     EOWalletRecordModel *model = self.dataSource[indexPath.row - 1];
-    EOWalletNoteTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:noteIdentifier forIndexPath:indexPath];
+    EOWalletNoteTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:noteIdentifier];
+    if (cell == nil) {
+        cell = [[TRZXWalletBundle loadNibNamed:NSStringFromClass([EOWalletNoteTableViewCell class]) owner:nil options:nil] firstObject];
+    }
+    
     cell.model = model;
     return cell;
 }
@@ -435,8 +442,6 @@
         _tableView.dataSource = self;
         _tableView.estimatedRowHeight = 80;
         _tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
-        [_tableView registerNib:[UINib nibWithNibName:@"EOWalletRecentlyCell" bundle:nil] forCellReuseIdentifier:recentlyIdentifier];
-        [_tableView registerNib:[UINib nibWithNibName:@"EOWalletNoteTableViewCell" bundle:nil] forCellReuseIdentifier:noteIdentifier];
     }
     return _tableView;
 }

@@ -70,9 +70,9 @@ static  NSString *bankIdentifier = @"EOAddBankTypeCell";
     [self registerTitleLabe:@"填写银行卡信息"];
     [self.view addSubview:self.tableView];
 
-    [self.tableView registerNib:[UINib nibWithNibName:@"EOAddBankTypeCell" bundle:nil] forCellReuseIdentifier:bankIdentifier];
-    [self.tableView registerNib:[UINib nibWithNibName:@"EOEditMyMsgTableViewCell" bundle:nil] forCellReuseIdentifier:editlIdentifier];
-    [self.tableView registerNib:[UINib nibWithNibName:@"EOWalletAddCardTableViewCell" bundle:nil] forCellReuseIdentifier:addIdentifier];
+//    [self.tableView registerNib:[UINib nibWithNibName:@"EOAddBankTypeCell" bundle:nil] forCellReuseIdentifier:bankIdentifier];
+//    [self.tableView registerNib:[UINib nibWithNibName:@"EOEditMyMsgTableViewCell" bundle:nil] forCellReuseIdentifier:editlIdentifier];
+//    [self.tableView registerNib:[UINib nibWithNibName:@"EOWalletAddCardTableViewCell" bundle:nil] forCellReuseIdentifier:addIdentifier];
 }
 
 #pragma mark - tableViewDelegate
@@ -86,7 +86,11 @@ static  NSString *bankIdentifier = @"EOAddBankTypeCell";
 {
     
     if (indexPath.row == 0) {
-        EOAddBankTypeCell *cell = [tableView dequeueReusableCellWithIdentifier:bankIdentifier forIndexPath:indexPath];
+        EOAddBankTypeCell *cell = [tableView dequeueReusableCellWithIdentifier:bankIdentifier];
+        if (cell == nil) {
+            cell = [[TRZXWalletBundle loadNibNamed:NSStringFromClass([EOAddBankTypeCell class]) owner:nil options:nil] firstObject];
+        }
+       
         cell.cardNO.delegate =self;
         cell.userNameTF.text = [Login curLoginUser].name;//[KPOUserDefaults name];
         cell.userNameTF.enabled = NO;
@@ -96,7 +100,10 @@ static  NSString *bankIdentifier = @"EOAddBankTypeCell";
         return cell;
     }else if (indexPath.row == 1)
     {
-        EOWalletAddCardTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:addIdentifier forIndexPath:indexPath];
+        EOWalletAddCardTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:addIdentifier];
+        if (cell == nil) {
+           cell= [[TRZXWalletBundle loadNibNamed:NSStringFromClass([EOWalletAddCardTableViewCell class]) owner:nil options:nil] firstObject];
+        }
         cell.addLabel.text = @"下一步";
         cell.addLabel.textColor = [UIColor whiteColor];
         cell.addLabel.backgroundColor = TRZXWalletMainColor;

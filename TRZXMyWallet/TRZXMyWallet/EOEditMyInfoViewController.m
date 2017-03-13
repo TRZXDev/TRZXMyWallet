@@ -63,9 +63,9 @@ static  NSString *updateIdentifier = @"EOUpdatePasswordTableViewCell";
 //    navigationView1.backgroundColor = TRZXWalletMainColor;
     self.automaticallyAdjustsScrollViewInsets = NO;
     [self.view addSubview:self.tableView];
-    [self.tableView registerNib:[UINib nibWithNibName:@"EOWalletAddCardTableViewCell" bundle:nil] forCellReuseIdentifier:addIdentifier];
-    
-    [self.tableView registerNib:[UINib nibWithNibName:@"EOUpdatePasswordTableViewCell" bundle:nil] forCellReuseIdentifier:updateIdentifier];
+//    [self.tableView registerNib:[UINib nibWithNibName:@"EOWalletAddCardTableViewCell" bundle:nil] forCellReuseIdentifier:addIdentifier];
+//    
+//    [self.tableView registerNib:[UINib nibWithNibName:@"EOUpdatePasswordTableViewCell" bundle:nil] forCellReuseIdentifier:updateIdentifier];
     self.heightArray = @[@"183",@"58"];
     [self registerTitleLabe:@"修改支付密码"];
         
@@ -87,13 +87,19 @@ static  NSString *updateIdentifier = @"EOUpdatePasswordTableViewCell";
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     if (indexPath.row == 1) {
-       EOWalletAddCardTableViewCell *cell =  [tableView dequeueReusableCellWithIdentifier:addIdentifier forIndexPath:indexPath];
+       EOWalletAddCardTableViewCell *cell =  [tableView dequeueReusableCellWithIdentifier:addIdentifier];
+        if (cell == nil) {
+            cell= [[TRZXWalletBundle loadNibNamed:NSStringFromClass([EOWalletAddCardTableViewCell class]) owner:nil options:nil] firstObject];
+        }
         cell.addLabel.text = @"提交";
         cell.addLabel.textColor = [UIColor whiteColor];
         cell.addLabel.backgroundColor = TRZXWalletMainColor;
         return cell;
     }
         EOUpdatePasswordTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:updateIdentifier forIndexPath:indexPath];
+        if (cell == nil) {
+            cell= [[TRZXWalletBundle loadNibNamed:NSStringFromClass([EOUpdatePasswordTableViewCell class]) owner:nil options:nil] firstObject];
+        }
         [self setUpTextFieldUpdate:cell];
         return cell;
 }

@@ -95,7 +95,7 @@ static  NSString *normalIdentifier = @"cell";
     
 //        navigationView1.backgroundColor = [UIColor whiteColor];
 //        logintTitleLabel.textColor = WalletBlackColor;
-        [self.tableView registerNib:[UINib nibWithNibName:@"EOWalletBankCardTableViewCell" bundle:nil] forCellReuseIdentifier:bankIdentifier];
+//        [self.tableView registerNib:[UINib nibWithNibName:@"EOWalletBankCardTableViewCell" bundle:nil] forCellReuseIdentifier:bankIdentifier];
         [self.view addSubview:self.tableView];
 }
 
@@ -108,7 +108,10 @@ static  NSString *normalIdentifier = @"cell";
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    EOWalletBankCardTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:bankIdentifier forIndexPath:indexPath];
+    EOWalletBankCardTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:bankIdentifier];
+    if (cell == nil) {
+       cell = [[TRZXWalletBundle loadNibNamed:NSStringFromClass([EOWalletBankCardTableViewCell class]) owner:nil options:nil] firstObject];
+    }
     cell.selectionStyle = UITableViewCellSelectionStyleNone;
     EOBankModel *model =  self.dataSource[indexPath.row];
     cell.model = model;

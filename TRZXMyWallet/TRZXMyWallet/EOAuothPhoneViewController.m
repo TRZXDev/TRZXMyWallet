@@ -55,8 +55,8 @@
     [self.view addSubview:self.tableView];
     
     [self registerTitleLabe:@"验证手机号"];
-    [self.tableView registerNib:[UINib nibWithNibName:@"EOEditMailTableViewCell" bundle:nil] forCellReuseIdentifier:@"EOEditMailTableViewCell"];
-    [self.tableView registerNib:[UINib nibWithNibName:@"EOWalletAddCardTableViewCell" bundle:nil] forCellReuseIdentifier:@"EOWalletAddCardTableViewCell"];
+//    [self.tableView registerNib:[UINib nibWithNibName:@"EOEditMailTableViewCell" bundle:nil] forCellReuseIdentifier:@"EOEditMailTableViewCell"];
+//    [self.tableView registerNib:[UINib nibWithNibName:@"EOWalletAddCardTableViewCell" bundle:nil] forCellReuseIdentifier:@"EOWalletAddCardTableViewCell"];
 }
 #pragma mark - tableViewDelegate
 
@@ -68,14 +68,20 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     if (indexPath.row == 0) {
-        EOEditMailTableViewCell *cells = [tableView dequeueReusableCellWithIdentifier:@"EOEditMailTableViewCell" forIndexPath:indexPath];
+        EOEditMailTableViewCell *cells = [tableView dequeueReusableCellWithIdentifier:@"EOEditMailTableViewCell"];
+        if (cells == nil) {
+          cells =  [[TRZXWalletBundle loadNibNamed:NSStringFromClass([EOEditMailTableViewCell class]) owner:nil options:nil] firstObject];
+        }
        [cells.tefieldEdit addTarget:self action:@selector(textChanged:) forControlEvents:UIControlEventEditingChanged];
         cells.tefieldEdit.delegate = self;
         self.identifyingCodeTF = cells.tefieldEdit;
       [cells.getCodeButton addTarget:self action:@selector(buttonClick:) forControlEvents:UIControlEventTouchUpInside];
         return cells;
     }else if (indexPath.row == 1){
-        EOWalletAddCardTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"EOWalletAddCardTableViewCell" forIndexPath:indexPath];
+        EOWalletAddCardTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"EOWalletAddCardTableViewCell"];
+        if (cell == nil) {
+          cell=  [[TRZXWalletBundle loadNibNamed:NSStringFromClass([EOWalletAddCardTableViewCell class]) owner:nil options:nil] firstObject];
+        }
         cell.addLabel.text = @"确定";
         cell.addLabel.textColor = [UIColor whiteColor];
         cell.addLabel.backgroundColor = TRZXWalletMainColor;

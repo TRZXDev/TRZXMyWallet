@@ -71,8 +71,8 @@ static  NSString *addIdentifier = @"EOWalletAddCardTableViewCell";
     [self.view addSubview:self.tableView];
     
     [self registerTitleLabe:@"找回支付密码"];
-    [self.tableView registerNib:[UINib nibWithNibName:@"EOUpdatePasswordTableViewCell" bundle:nil] forCellReuseIdentifier:deatilIdentifier];
-    [self.tableView registerNib:[UINib nibWithNibName:@"EOWalletAddCardTableViewCell" bundle:nil] forCellReuseIdentifier:addIdentifier];
+//    [self.tableView registerNib:[UINib nibWithNibName:@"EOUpdatePasswordTableViewCell" bundle:nil] forCellReuseIdentifier:deatilIdentifier];
+//    [self.tableView registerNib:[UINib nibWithNibName:@"EOWalletAddCardTableViewCell" bundle:nil] forCellReuseIdentifier:addIdentifier];
 
 }
 
@@ -87,7 +87,10 @@ static  NSString *addIdentifier = @"EOWalletAddCardTableViewCell";
 {
     if (indexPath.row == 0) {
     
-        EOUpdatePasswordTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:deatilIdentifier forIndexPath:indexPath];
+        EOUpdatePasswordTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:deatilIdentifier];
+        if (cell == nil) {
+            cell= [[TRZXWalletBundle loadNibNamed:NSStringFromClass([EOUpdatePasswordTableViewCell class]) owner:nil options:nil] firstObject];
+        }
         cell.sendCodeButton.hidden = NO;
         cell.sendCodeButton.backgroundColor = TRZXWalletMainColor;
         [cell.sendCodeButton setNeedsDisplay];
@@ -105,7 +108,10 @@ static  NSString *addIdentifier = @"EOWalletAddCardTableViewCell";
     }
     else if (indexPath.row == 2)
     {
-        EOWalletAddCardTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:addIdentifier forIndexPath:indexPath];
+        EOWalletAddCardTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:addIdentifier];
+        if (cell == nil) {
+            cell= [[TRZXWalletBundle loadNibNamed:NSStringFromClass([EOWalletAddCardTableViewCell class]) owner:nil options:nil] firstObject];
+        }
         cell.addLabel.text = @"确定";
         cell.addLabel.textColor = [UIColor whiteColor];
         cell.addLabel.backgroundColor = TRZXWalletMainColor;

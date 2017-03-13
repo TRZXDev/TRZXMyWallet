@@ -105,15 +105,15 @@ static  NSString *normalIdentifier = @"cell";
     if ([self.type isEqualToString:@"1"]) {
         [self registerTitleLabe:@"银行卡"];
 //         navigationView1.backgroundColor = TRZXWalletMainColor;
-        [self.tableView registerNib:[UINib nibWithNibName:@"EOWalletBankCardTableViewCell" bundle:nil] forCellReuseIdentifier:bankIdentifier];
-        [self.tableView registerNib:[UINib nibWithNibName:@"EOWalletAddCardTableViewCell" bundle:nil] forCellReuseIdentifier:addIdentifier];
+//        [self.tableView registerNib:[UINib nibWithNibName:@"EOWalletBankCardTableViewCell" bundle:nil] forCellReuseIdentifier:bankIdentifier];
+//        [self.tableView registerNib:[UINib nibWithNibName:@"EOWalletAddCardTableViewCell" bundle:nil] forCellReuseIdentifier:addIdentifier];
 //        logintTitleLabel.textColor = [UIColor whiteColor];
 //        [self NoImagebackButtonNoImage];
     }else
     {
          [self registerTitleLabe:@"选择银行卡"];
          [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:normalIdentifier];
-         [self.tableView registerNib:[UINib nibWithNibName:@"EOChooseBankTableViewCell" bundle:nil] forCellReuseIdentifier:chooseIdentifier];
+//         [self.tableView registerNib:[UINib nibWithNibName:@"EOChooseBankTableViewCell" bundle:nil] forCellReuseIdentifier:chooseIdentifier];
     }
    
    
@@ -131,12 +131,19 @@ static  NSString *normalIdentifier = @"cell";
 {
     if ([self.type isEqualToString:@"1"]) {
         if (indexPath.row == self.dataSource.count) {
-            EOWalletAddCardTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:addIdentifier forIndexPath:indexPath];
+            EOWalletAddCardTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:addIdentifier];
+            if (cell == nil) {
+                cell= [[TRZXWalletBundle loadNibNamed:NSStringFromClass([EOWalletAddCardTableViewCell class]) owner:nil options:nil] firstObject];
+            }
+            
             cell.selectionStyle = UITableViewCellSelectionStyleNone;
             
             return cell;
         }
         EOWalletBankCardTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:bankIdentifier forIndexPath:indexPath];
+        if (cell == nil) {
+            cell= [[TRZXWalletBundle loadNibNamed:NSStringFromClass([EOWalletBankCardTableViewCell class]) owner:nil options:nil] firstObject];
+        }
         cell.selectionStyle = UITableViewCellSelectionStyleNone;
         EOBankModel *model =  self.dataSource[indexPath.row];
         cell.model = model;
@@ -153,7 +160,10 @@ static  NSString *normalIdentifier = @"cell";
         cell.selectionStyle = UITableViewCellSelectionStyleNone;
         return cell;
     }
-    EOChooseBankTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:chooseIdentifier forIndexPath:indexPath];
+    EOChooseBankTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:chooseIdentifier];
+    if (cell == nil) {
+        cell= [[TRZXWalletBundle loadNibNamed:NSStringFromClass([EOChooseBankTableViewCell class]) owner:nil options:nil] firstObject];
+    }
     cell.selectionStyle = UITableViewCellSelectionStyleNone;
 
     EOBankModel *model =  self.dataSource[indexPath.row-1];
