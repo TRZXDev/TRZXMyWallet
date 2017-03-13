@@ -248,7 +248,7 @@
     if (indexPath.row == 0) {
         EOWalletRecentlyCell *cell = [tableView dequeueReusableCellWithIdentifier:recentlyIdentifier];
         if (cell == nil) {
-            cell = [[TRZXWalletBundle loadNibNamed:NSStringFromClass([EOWalletNoteTableViewCell class]) owner:nil options:nil] lastObject];
+            cell = [[TRZXWalletBundle loadNibNamed:NSStringFromClass([EOWalletRecentlyCell class]) owner:nil options:nil] lastObject];
         }
         if (self.dataSource.count != 0) {
             cell.updateDate = self.updateDate;
