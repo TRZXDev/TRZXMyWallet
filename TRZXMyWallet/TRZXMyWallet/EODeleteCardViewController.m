@@ -96,6 +96,8 @@ static  NSString *normalIdentifier = @"cell";
 //        navigationView1.backgroundColor = [UIColor whiteColor];
 //        logintTitleLabel.textColor = WalletBlackColor;
 //        [self.tableView registerNib:[UINib nibWithNibName:@"EOWalletBankCardTableViewCell" bundle:nil] forCellReuseIdentifier:bankIdentifier];
+    
+    
         [self.view addSubview:self.tableView];
 }
 
